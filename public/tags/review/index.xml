@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on Gram Sevak Product Documentation</title>
+    <link>http://doc.gramsevak.org/tags/review/</link>
+    <description>Recent content in Review on Gram Sevak Product Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://doc.gramsevak.org/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Roadmap</title>
+      <link>http://doc.gramsevak.org/productspecification/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/roadmap/</guid>
+      <description>A strategy roadmap describes the what and the why. An execution plan describes the how.
+A strategy roadmap is not a visual Gantt chart of activities with start dates and end dates. It describes what the organization must change, and why the changes are required, in order to achieve the strategic vision.
+An execution plan describes how the organization will deliver the outcomes described in the strategy roadmap. Often, an execution plan is represented in a Gantt chart with a specific timeframe, start and end dates, milestones, and resource allocation.</description>
+    </item>
+    
+  </channel>
+</rss>

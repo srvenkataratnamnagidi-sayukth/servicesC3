@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-panchayatassets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-gismaps/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/basics/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/pages/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/architecture/webapplication/basicmodel/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/buildanddeploy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/certifications/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/deprecatedfeatures/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/developmentenvironment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/developmenttools/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/doctemplates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/organization/ethics/emailethics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/organization/engineering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/escalationmatrix/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/minutesofmeetings/fy2020/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/minutesofmeetings/fy2021/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-grievances/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/roadmap/hackathons/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/organization/maketing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/organization/ethics/meetingethics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/minutesofmeetings/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/architecture/mobileapplication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/architecture/mobileapplication/applicationstack/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/notifysmstemplates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/organization/operations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/organization/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/roadmap/initiatives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/organization/ethics/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/pod/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/doctemplates/productfeaturetemplate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productreleases/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/productionenvironment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/roadmap/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/shadkonacitizencharter/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/stagingenvironment/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/unittesting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/architecture/webapplication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/architecture/webapplication/applicationstack/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/</loc>
+    <lastmod>2020-06-01T13:31:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/archetypes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/basics/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/markdown/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/basics/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/syntaxhighlight/</loc>
+    <lastmod>2020-06-01T13:31:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/basics/configuration/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/menushortcuts/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/basics/style-customization/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/icons/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/i18n/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/cont/tags/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/</loc>
+    <lastmod>2020-06-01T13:31:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/</loc>
+    <lastmod>2020-06-01T13:31:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/tags/documentation/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/tags/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/tags/tutorial/</loc>
+    <lastmod>2018-11-29T08:41:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/advertisement/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/advertisementproperty/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/advertisementtaxrate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/pod/applicationstack/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-panchayatassets/assets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/attachments/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-panchayatassets/auctionassets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/auction-property/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/auctionproperty/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/birth-certificate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/button/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/caste-cetificate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/change-password/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/check-device-compatibility/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/circulars/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/citizens/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/citizens/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-grievances/complaints/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/complete-survey/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/tags/composing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/credits/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/customer-care/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/deathcertificate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/expand/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/families/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/family/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/govtorders/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0001-dashbaord/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0002-featurepermissionmanagement/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/login/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/panchayatselection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0003-userroles/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/dashboard/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/side-menu/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0004-users/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0005-systemproperties/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-auditdata/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-organizations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0010-surveyuser/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0013-ledgerbook/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0013-paymentgateway/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0014-orgemploy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0015-panchayatbankaccount/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/housemoduletaxrate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/house-property/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/houseproperty/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/housetaxrate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/kolagaram/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/kolagaramproperty/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/kolagaramtaxrate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/locked-property/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/logout-module/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/marriagecertificate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/mermaid/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/my-account/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/nonresidentcitizens/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/tags/not-started/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/notice/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-1/children-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-4/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/test/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/children/children-2/test3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-gismaps/panchayatassets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/panchayatresolution/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/doorlockedproperty/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productreleases/2020dec/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/profilepicture/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/property-valuation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/tags/review/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/showcase/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/signup/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/shortcodes/siteparam/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/startorcontinuesurvey/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/tax-invoice-generator/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-gismaps/taxableproperties/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/tradeproperty/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/tradetaxrate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/tradelicense/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/docsemantics/uml/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/upload-data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/user-manual/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/vacantlandproperty/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/vacantlandtaxrate/</loc>
+  </url>
+  
+  <url>
+    <loc>http://doc.gramsevak.org/productspecification/features/mobileapplication/vacantland/</loc>
+  </url>
+  
+</urlset>

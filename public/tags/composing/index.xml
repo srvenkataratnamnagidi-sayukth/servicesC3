@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Composing on Gram Sevak Product Documentation</title>
+    <link>http://doc.gramsevak.org/tags/composing/</link>
+    <description>Recent content in Composing on Gram Sevak Product Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://doc.gramsevak.org/tags/composing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Email Ethics</title>
+      <link>http://doc.gramsevak.org/organization/ethics/emailethics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/organization/ethics/emailethics/</guid>
+      <description>Email is the defacto standard communication medium in the organization. Effective email writing skills are mandatory.
+Note : Grammerly
+ Quick links   </description>
+    </item>
+    
+    <item>
+      <title>Hackathons</title>
+      <link>http://doc.gramsevak.org/productspecification/roadmap/hackathons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/roadmap/hackathons/</guid>
+      <description>A hackathon (also known as a hack day, hackfest or codefest; a portmanteau of hacking marathon) is a design sprint-like event; often, in which computer programmers and others involved in software development, including graphic designers, interface designers, project managers, domain experts, and others collaborate intensively on software projects.
+The goal of a hackathon is to create functioning software or hardware by the end of the event.[1] Hackathons tend to have a specific focus, which can include the programming language used, the operating system, an application, an API, or the subject and the demographic group of the programmers.</description>
+    </item>
+    
+    <item>
+      <title>Meeting Ethics</title>
+      <link>http://doc.gramsevak.org/organization/ethics/meetingethics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/organization/ethics/meetingethics/</guid>
+      <description>Meeting with a group of people is the defacto standard to work collaboratively in the organization.
+Note : 10 minutes gap between any sub-sequent meetings to check-in MOM and Bio-break
+ Quick links   </description>
+    </item>
+    
+    <item>
+      <title>Organization Initiatives</title>
+      <link>http://doc.gramsevak.org/productspecification/roadmap/initiatives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/roadmap/initiatives/</guid>
+      <description>If you have even a little bit of business experience, you&amp;rsquo;ve probably already implemented strategic business initiatives, even if you didn&amp;rsquo;t call them that. For example, because technology changes at a rapid pace, many businesses find themselves implementing new software every few years to improve the efficiency of their workflows. Overhauling your business&amp;rsquo;s tech system certainly merits a strategic plan, a budget, and a start and end date, transforming it from a mere goal to a full-blown business initiative.</description>
+    </item>
+    
+    <item>
+      <title>Orgnization Ethics</title>
+      <link>http://doc.gramsevak.org/organization/ethics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/organization/ethics/</guid>
+      <description>Organizational ethics are the principals and standards by which businesses operate, according to Reference for Business. They are best demonstrated through acts of fairness, compassion, integrity, honor and responsibility. The key for business owners and executives is ensuring that all employees understand these ethics. One of the best ways to communicate organizational ethics is by training employees on company standards.
+Uniform Treatment of All Employees One example of organizational ethics is the uniform treatment of all employees.</description>
+    </item>
+    
+    <item>
+      <title>Product Feature Template</title>
+      <link>http://doc.gramsevak.org/productspecification/doctemplates/productfeaturetemplate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/doctemplates/productfeaturetemplate/</guid>
+      <description>Instructions to use this Template  Copy this page and rename the title to Name of the JIRA Epic Remove the section &amp;ldquo;Instructions to use this Template&amp;rdquo; Update the associated JIRA Epic description with a link to this page Inline comments should be annotated with the commentator&amp;rsquo;s identify; Once the comment is addressed, inline comments should be removed.  This Technical Spec document should be used to communicate important design information (including, sometimes, the associated requirements).</description>
+    </item>
+    
+    <item>
+      <title>Staging Environment</title>
+      <link>http://doc.gramsevak.org/productspecification/stagingenvironment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/stagingenvironment/</guid>
+      <description>Staging Environment is a single server instance will all the components. This is exposed to all the Developers, DevOps team can update the builds on demand.
+Environment Details How to access the Server The server is hosted on a GCP VM. The following are steps to update the build on the server
+ Login to GCP using the account name devops1@shadkona.com with password 1!Qdesigner SSH to the GCP VM named GramSevak Got the source code folder and get the latest code &amp;amp; start the deployment script  cd /opt/devops git pull cd gramsevak sh deploy.</description>
+    </item>
+    
+    <item>
+      <title>Web Application Stack</title>
+      <link>http://doc.gramsevak.org/productspecification/architecture/webapplication/applicationstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/architecture/webapplication/applicationstack/</guid>
+      <description>Activity    Date Reviewer Reviewer Comments Approver Approver Remarks     20 DEC 2020 P C Varma Reviewed P C Varma Approved    Development Server classDiagram OS *.. VM JDK *.. OS Tomcat *.. JDK HAProxy *.. Tomcat MySQL *.. OS ScyllaDB *.. OS MySQL Staging Server classDiagram OS *.. GCP JDK *.. OS Tomcat *.. JDK HAProxy *.. Tomcat MySQL *.. OS ScyllaDB *.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://doc.gramsevak.org/</link>
+      <pubDate>Mon, 01 Jun 2020 13:31:12 +0100</pubDate>
+      
+      <guid>http://doc.gramsevak.org/</guid>
+      <description>GramSevak Product Documentation Documentation is an important part of Software Engineering. It is a viable part of Software Development process and without it, it is hard to maintain any project and the developers have to re-invent the wheel.
+ For a programmer reliable documentation is always a must. The presence of documentation helps keep track of all aspects of an application and it improves on the quality of a software product.</description>
+    </item>
+    
+    <item>
+      <title>About Page</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/about/</guid>
+      <description>Introduction About feature is one of the basic features of the software product. It contains details of the project. About feature provides the vision and motto of application to the user.
+Business Assumptions  About feature should be planned at the design phase. Survey User can able to view the About page.  Requirements Functional Requirements  We have to show project details in about page. Also show app last update time and app version in about page.</description>
+    </item>
+    
+    <item>
+      <title>Advertisement Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/advertisement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/advertisement/</guid>
+      <description>Introduction Advertisement Property is one of the basic features of the software product which contains the data of all the advertisement properties in the Telangana state.Places belonging to the government are given for citizens to advertise their product in this adveritsement module.By using this advertisement property feature we have to store every advertisement property data and know about every advertisement property in the state. Every advertisement property should be stored under the respective panchayat only.</description>
+    </item>
+    
+    <item>
+      <title>Advertisement Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/advertisementproperty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/advertisementproperty/</guid>
+      <description>Introduction Advertisement Property is one of the basic features of the software product which contains the data of all the advertisement properties in the Telangana state. By using this advertisement property feature we have to store every advertisement property data and know about every advertisement property in the state. Every advertisement property should be stored under the respective panchayat only.
+Business Assumptions  Advertisement Property feature should be planned at the design phase.</description>
+    </item>
+    
+    <item>
+      <title>Advertisement Tax Rate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/advertisementtaxrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/advertisementtaxrate/</guid>
+      <description>Introduction Advertisement Tax Rate is one of the features of this software product. Advertisement tax rate is a tax rate defined for advertisement properties. It depends upon panchayat resolution. Advertisement tax rate may be different for advertisement properties based on advertisement asset and advertisement category. It may vary from one panchayat to other panchayat. Users will have access to advertisement tax rates if they have permission, Otherwise will not access.</description>
+    </item>
+    
+    <item>
+      <title>Application Stack</title>
+      <link>http://doc.gramsevak.org/pod/applicationstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/pod/applicationstack/</guid>
+      <description>OS Details CentOS version 7.latest
+Application Stack    Application Name Reference Links     HA Proxy Latest Version   Open JDK Latest Version   Tomcat Latest Version   Percona XtraDB Latest Version   ScyllaDB Latest Version   Redpanda Latest Version    HA Proxy Please check the latest version at HA Proxy Website
+ Find the following instructions to install the HA Proxy</description>
+    </item>
+    
+    <item>
+      <title>Assets</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-panchayatassets/assets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-panchayatassets/assets/</guid>
+      <description>Introduction Assets are one of the features of our software product. Assets are the properties or things that belong to a panchayat. Users should have permission to access this feature.
+Business Assumptions Creating, updating and removing the assets can be done at the run time based on the requirement.
+Requirements Functional Requirements Only panchayat level users should create, update, remove or view the assets.
+Non-functional Requirements Based on Personas of Users, we will give permission to access assets.</description>
+    </item>
+    
+    <item>
+      <title>Auction Assets</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-panchayatassets/auctionassets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-panchayatassets/auctionassets/</guid>
+      <description>Introduction Auction Assets are one of the features of our software product. User should have the permission to access this feature.
+Business Assumptions Creating, updating and removing the auction assets can be done at the run time based on the requirement.
+Requirements Functional Requirements Only panchayat level users should create, update, remove or view the auction assets.
+Non-functional Requirements Based on Personas of Users, we will give permission to access auction assets.</description>
+    </item>
+    
+    <item>
+      <title>Auction Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/auction-property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/auction-property/</guid>
+      <description>Introduction Auction Property is one of the basic features of the software product which contains the data of all the auction properties in the Telangana state.Some properties of the panchayat given lease to the people by auction.By using this auction property feature we have to store every auction property data and know about every auction property in the state. Every auction property should be stored under respective panchayat only. Auction property will be created based on auction asset.</description>
+    </item>
+    
+    <item>
+      <title>Auction Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/auctionproperty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/auctionproperty/</guid>
+      <description>Introduction Auction Property is one of the basic features of the software product which contains the data of all the auction properties in the Telangana state. By using this auction property feature, user have to store every auction property data and user can know about every auction property in the state. Every auction property should be stored under the respective panchayat only. Auction property will be created based on auction assets.</description>
+    </item>
+    
+    <item>
+      <title>Birth Certificate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/birth-certificate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/birth-certificate/</guid>
+      <description>Introduction Birth Certificate is one of the basic features of the software product. Birth Certificate feature provides the service of applying for the birth certificate. One application number will be assigned to the each birth certificate application. Birth certificate application status can be tracked using application number.
+Business Assumptions Birth Certificate Feature should be planned at the design phase and updates to the birth certificate at the run time based on the requirement.</description>
+    </item>
+    
+    <item>
+      <title>Caste Certificate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/caste-cetificate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/caste-cetificate/</guid>
+      <description>Introduction Caste Certificate is one of the basic features of the software product. The caste certificate feature provides the service of applying for the caste certificate. Application number will be assigned to each caste certificate application. Caste certificate application status can be tracked using the application number.
+Business Assumptions Caste Certificate feature should be planned at the design phase and updating the caste certificate can be done at the run time based on the requirement.</description>
+    </item>
+    
+    <item>
+      <title>Change Password</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/change-password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/change-password/</guid>
+      <description>Introduction Change Password is one of the features of the software product. Change Password feature will provide the option to change the login password of the user.
+Business Assumptions Change Password Feature should be planned at the design phase and updates to the password at the run time based on the requirement.
+Requirements Functional Requirements  Change Password feature is accessible at all levels of organization. New Password should not match with the last password.</description>
+    </item>
+    
+    <item>
+      <title>Check Device Compatibility</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/check-device-compatibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/check-device-compatibility/</guid>
+      <description>Introduction Check Device Compatibility feature is one of the basic features of the software product. By Using this feature, Surveyor have to know that whether the mobile device is compatible to take the Survey or Not.The asset survey application needs some features in surveyor mobile device to take the survey,So that purpose we design the Check Device Compatibility feature.This feature will check and certify whether mobile phone can be used for this survey or not.</description>
+    </item>
+    
+    <item>
+      <title>Circulars</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/circulars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/circulars/</guid>
+      <description>Introduction Circulars are one of the features of this software product. Circular is notice or statement for some purposes and will be released by officers. Users will have access to circulars if they have permission, Otherwise will not access.
+Business Assumptions what type of users can create circulars should be planned at design phase.
+Requirements Functional Requirements  Only state level users can create circulars. Only state level users can remove circulars.</description>
+    </item>
+    
+    <item>
+      <title>Citizen</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/citizens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/citizens/</guid>
+      <description>Introduction Citizens are one of the features of our software product. Using this feature, Survey User can create citizen with organization required data. Citizen details mean person identity( Aadhaar Details ), employment details, and health details.
+Business Assumptions  Citizen feature should be planned at the design phase. Creating and updating the citizens can be done at the run time based on the requirement.  Requirements Functional Requirements  After completing the house creation only, the Survey User is allowed to create a citizen.</description>
+    </item>
+    
+    <item>
+      <title>Citizens</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/citizens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/citizens/</guid>
+      <description>Introduction Citizens are one of the features of our software product. Details of every person in a panchayat is created and saved in citizens block. Users should have permission to access this feature.
+Business Assumptions Creating, updating and removing the citizens can be done at the run time based on the requirement.
+Requirements Functional Requirements Only panchayat level users should create, update, remove, or view the citizens.
+Non-functional Requirements The system can support any number of citizens but this design will limit 3,00,00,000 citizens for this system.</description>
+    </item>
+    
+    <item>
+      <title>Complaints</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-grievances/complaints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0007-grievances/complaints/</guid>
+      <description>Introduction Complaints are one of the features of this software product. Users will have access to complaints if they have permission, Otherwise will not access. By using Complaints, Users can create the complaint and it will be assigned to the respected officer and it&amp;rsquo;s status also monitored and notified through SMS,Email, and Whatsapp. User can track the complaint status using Complaint code.
+Business Assumptions  Complaints feature should be planned at the design phase.</description>
+    </item>
+    
+    <item>
+      <title>Complete Survey</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/complete-survey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/complete-survey/</guid>
+      <description>Introduction In complete survey module Survey Executive after successful completion of surveying all the modules(i.e House,Auction,Advertisement,Kolagaram,TradeLicense,VacantLand and Locked Property) and Successfully Uploaded or synced the data into the GS-Cloud, He/She has to intimate to the organization that survey in this particular Panchayat was successful.After Completion of this module only Survey Executive able to select other pachayat in order to contine survey in that PAnchayat.
+Business Assumptions  Complete Survey feature should be planned at design phase.</description>
+    </item>
+    
+    <item>
+      <title>Customer Care</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/customer-care/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/customer-care/</guid>
+      <description>Introduction Customer Care or Help is one of the basic features of the software product. By using this feature, Survey User can call the tech support and clarify his/her doubts.
+Business Assumptions  Customer Care feature should be planned at the design phase. Survey User can able to call tech support and get support to continue the survey.  Requirements Functional Requirements  Valid phone numbers are required.  Non-functional Requirements  User should allow Phone permission in App.</description>
+    </item>
+    
+    <item>
+      <title>Death Certificate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/deathcertificate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/deathcertificate/</guid>
+      <description>Introduction Death Certificate is one of the basic features of the software product. Death Certificate feature provides the service of applying for the death certificate. One application number will be assigned to the each death certificate application. Death certificate application status can be tracked using application number.
+Business Assumptions Death Certificate Feature should be planned at the design phase and updates to the death certificate at the run time based on the requirement.</description>
+    </item>
+    
+    <item>
+      <title>Families</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/families/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/families/</guid>
+      <description>Introduction Families are one of the features of our software product. The product holds the information of families from various panchayat&amp;rsquo;s. User should have the permission to access this feature.
+Business Assumptions Updating and removing the families can be done at the run time based on the requirement.
+Requirements Functional Requirements Each and every citizen living in the panchayat are created and mapped to their family. Every family should contain one family head and a set of citizens.</description>
+    </item>
+    
+    <item>
+      <title>Family</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/family/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/family/</guid>
+      <description>Introduction Family is one of the basic features of the software product which contains the data of all the families in the Telangana state. By using this family feature we have to store every family data.The product holds the information of families from various panchayat&amp;rsquo;s. Every Family should be stored under respective panchayat only.
+Business Assumptions  Family feature should be planned at the design phase. User should be in the panchayat level to create the Family.</description>
+    </item>
+    
+    <item>
+      <title>Govt Orders</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/govtorders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/govtorders/</guid>
+      <description>Introduction Government orders are one of the features of this software product. Government Orders are rules, decisions, approvals which are released by government to make something official. Users will have access to government orders if they have permission, Otherwise will not access.
+Business Assumptions what type of users can create government orders should be planned at design phase.
+Requirements Functional Requirements  Only state level users can create government orders. Only state level users can remove government orders.</description>
+    </item>
+    
+    <item>
+      <title>GS0001 - Dashboard</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0001-dashbaord/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0001-dashbaord/</guid>
+      <description>Introduction Composing&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>GS0002 - Feature Permission Management</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0002-featurepermissionmanagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0002-featurepermissionmanagement/</guid>
+      <description>Introduction Feature Permissions are one of the basic building blocks of the software product. Product can be used by different users at various levels of the organization. Each Product Feature we are developing should be bind to a PERMISSION that way it will be accessible to the user binded to that PERMISSION.
+Business Assumptions Product Features should be planned at the design phase and no updates to the permissions at the run time.</description>
+    </item>
+    
+    <item>
+      <title>GS0003 - Login</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/login/</guid>
+      <description>Introduction Login is one of the basic features of the software product which contains confidential data. The product can be used by different users at various levels of the organization. To access the application, every user should authenticate. The login page allows a user to gain access to an application by entering their username and password.
+Business Assumptions  Login feature should be planned at the design phase. Only authorized users can be logged in to the application.</description>
+    </item>
+    
+    <item>
+      <title>GS0003 - Panchayat Selection</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/panchayatselection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/panchayatselection/</guid>
+      <description>Introduction Panchayat selection is one of the basic features of the software product which contains the data of all the districts names, divisions names, Mandal names, and panchayat names of the Telangana state. By using this panchayat selection feature we have to know about in which district, in which division, in which Mandal, and in which panchayat a surveyor surveys. Every survey user should be select all the details of Panchyat Selection before Starts the survey.</description>
+    </item>
+    
+    <item>
+      <title>GS0003 - User Roles</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0003-userroles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0003-userroles/</guid>
+      <description>Introduction User Roles are one of the basic building blocks of the software product. The product can be used by different users at various levels of the organization. Each and every user role is a combination of one or more user permission(s). Based on user position, a user role will bind to the user that way user can access the feature.
+Security is key for the project. If a project failed to maintain security, project data will be easily manipulated and it leads to project failure.</description>
+    </item>
+    
+    <item>
+      <title>GS0004 - Dashboard</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/dashboard/</guid>
+      <description>Introduction Dashboard is the building block of the Application.It is divided into three segments namely Survey Summary , Survey Performance and Current Survey Summary Survey Summary:- This holds the information about the data.That is how much survey is completed Today,Yesterday ,This week , This Month and This Projects. Survey Performance :- It contains the information about Total Panchayats,Average Survey Time and Updated time. Current Survey Summary:- It contains the information about modules created and average time taken to create those modules.</description>
+    </item>
+    
+    <item>
+      <title>GS0004 - Side Menu</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/side-menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/side-menu/</guid>
+      <description>Introduction Side Menu is the one of the feature in the aaplication.By using side menu User can go to all other modules in the application.Other modules that are navigate from Side Menu are Dashboard,Start/Continue Survey,Panchayat,Upload Data ,Complete Survey ,User Manual , Customer Care , About and Lagout . Start/Continue Survey:- To start or continue survey of House,Auction,Advertisement,TradeLicense,Kolagaram,Locked Property and Vacant Land.
+Panchayat:- To select panchayat in order to start the survey.</description>
+    </item>
+    
+    <item>
+      <title>GS0004 - Users</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0004-users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0004-users/</guid>
+      <description>Introduction Users are one of the basic building blocks of the software product. Product can be used by different users at various levels of the organization. Here we assign User Roles to the user based on their level.Set of permissions to product features is called User Role.Based on assigned user roles to the user,user can access to the specific product feature.
+Business Assumptions What type of users can be access to our product should be planned at design phase.</description>
+    </item>
+    
+    <item>
+      <title>GS0005 - System Properties</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0005-systemproperties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0005-systemproperties/</guid>
+      <description>Introduction System Properties are one of the basic building blocks of the software product. System Properties includes the information of properties of the product like product URL, product name, product logo.
+Business Assumptions System Properties should be planned at the design phase and no updates to the properties at the run time. Only the administrator will have access to view or export these system properties.
+Requirements Functional Requirements In system properties, each property should have a name that has to be unique.</description>
+    </item>
+    
+    <item>
+      <title>GS0006 - Audit Data</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-auditdata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-auditdata/</guid>
+      <description>Introduction Audit data is one of the basic features of the software product. Audit data feature will show all the operations performed in various features of our product by logged in users. Users should have permission to access this feature.
+Business Assumptions Audit data should be planned at the design phase and no updates to audit data at the run time.
+Requirements Functional Requirements  The audit data feature is accessible at all levels of the organization.</description>
+    </item>
+    
+    <item>
+      <title>GS0006 - Taxable Properties</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/</guid>
+      <description>This page describes the &amp;ldquo;Taxable Properties&amp;rdquo;
+ Quick links   Advertisement Property   Auction Property   House Property   Kolagaram Property   Pending Property   Trade Property   Vacant Land Property   </description>
+    </item>
+    
+    <item>
+      <title>GS0009 - Organizations</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-organizations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-organizations/</guid>
+      <description>Introduction Organizations are one of the basic building blocks of the software product. The product can be used by different users at various levels of the organization. Organization may be State, District, Division, Mandal, and Panchayat.
+Business Assumptions Organizations Feature should be planned at the design phase and updates to the organizations at the run time based on the requirement.
+Requirements Functional Requirements  Panchayat level users should only view the organization.</description>
+    </item>
+    
+    <item>
+      <title>GS0010 - Survey User</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0010-surveyuser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0010-surveyuser/</guid>
+      <description>Introduction Survey User are one of the basic building blocks of the software product. Survey user is the person who surveys the all citizen data and stores the information in the application. Survey user is approved and converted to user and the default login for the user is api login.
+Business Assumptions Survey User Feature should be planned at the design phase and updates to the survey user at the run time based on the requirement.</description>
+    </item>
+    
+    <item>
+      <title>GS0011 - Certificates</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/</guid>
+      <description>This page describes the &amp;ldquo;Certificates&amp;rdquo;
+ Quick links   Birth Certificate   Caste Certificate   Death Certificate   Marriage Certificate   Property Valuation Certificate   </description>
+    </item>
+    
+    <item>
+      <title>GS0012 - User Account</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/</guid>
+      <description>This page describes the &amp;ldquo;User Account&amp;rdquo;
+ Quick links   Change Password   My Account   Profile Picture   </description>
+    </item>
+    
+    <item>
+      <title>GS0013 - Ledger Book</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0013-ledgerbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0013-ledgerbook/</guid>
+      <description>Introduction Ledger Book is one of the features of this software product. Ledger Book contains all the financial information of panchayat. Every panchayat has its own ledger book. Users will have access to ledger book if they have permission, Otherwise will not access.
+Business Assumptions what type of users can create ledger entry in ledger book should be planned at design phase.
+Requirements Functional Requirements  Users of all levels can create, remove, view and export the ledger entry in ledger book.</description>
+    </item>
+    
+    <item>
+      <title>GS0013 - Payment Gateway</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0013-paymentgateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0013-paymentgateway/</guid>
+      <description>Introduction Payment gateway is one of the features of our software product. The payment gateway feature works as the middleman between the citizens and the panchayat officials, ensuring the transaction is carried out securely and promptly. Users should have permission to access this feature.
+Business Assumptions Creating, updating and removing the payment gateway can be done at the run time based on the requirement.
+Requirements Functional Requirements Only panchayat level users should create, update, remove or view the payment gateway.</description>
+    </item>
+    
+    <item>
+      <title>GS0014 - Organization Employs</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0014-orgemploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0014-orgemploy/</guid>
+      <description>Introduction Product can be used at various panchayat level organizations. Each Panchayat has secretary and sarpanch to perform their roles. Organization Employs feature will list the details of sarpanch and secretary in all panchayat level organizations.
+Business Assumptions Creating, updating and removing the organization employs can be done at the run time based on the requirement.
+Requirements Functional Requirements  Only Panchayat level organization has Sarpanch and secretary officers. Appointed date and Qualification of the organization employs are also stored.</description>
+    </item>
+    
+    <item>
+      <title>GS0015 - Panchayat Bank Account</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0015-panchayatbankaccount/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0015-panchayatbankaccount/</guid>
+      <description>Introduction Panchayat bank account is one of the features of our software product. Panchayat bank account holds the information of bank account details that belongs to a panchayat. When a user makes a tax payment the amount is transferred to a fixed account. The transactions which were made to a fixed account on each day are again transferred to the taxpayer&amp;rsquo;s panchayat bank account on the night of the same day.</description>
+    </item>
+    
+    <item>
+      <title>House</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/</guid>
+      <description>This page describes the &amp;ldquo;House Module&amp;rdquo;
+ Quick links   Citizen   Family   House Property   </description>
+    </item>
+    
+    <item>
+      <title>House Module Tax Rate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/housemoduletaxrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/housemoduletaxrate/</guid>
+      <description>Introduction House Module Tax Rate is one of the features of this software product. House module tax rate is a tax rate defined for house modules. House module tax rate depends on panchayat resolution. House module tax rate may be different for house modules based on roof type and house category type and construction type. It may vary from one panchayat to other panchayat. Users will have access to house module tax rates if they have permission, Otherwise will not access.</description>
+    </item>
+    
+    <item>
+      <title>House Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/house-property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/house/house-property/</guid>
+      <description>Introduction House Property is one of the basic features of the software product which contains the details of all the house properties in the Telangana state. By using this house property feature we have to store every house data and know about every house property in the state.House property should be stored under the respective panchayat only. House Module feature embedded in the house property. While creating house property, house module details are also collected and stored.</description>
+    </item>
+    
+    <item>
+      <title>House Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/houseproperty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/houseproperty/</guid>
+      <description>Introduction House Property is one of the basic features of the software product which contains the data of all the house properties in the Telangana state. By using this house property feature, user have to store every house property data and user can know about every house property in the state. Every house property should be stored under the respective panchayat only. House Module feature embedded in the house property. While creating house property, house module details are also collected and stored.</description>
+    </item>
+    
+    <item>
+      <title>House Tax Rate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/housetaxrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/housetaxrate/</guid>
+      <description>Introduction House Tax Rate is one of the features of this software product. House tax rate is a tax rate defined for houses in panchayat. House tax rate depends upon panchayat resolution. House tax rate includes GOVT Land Value per SFT (RS), Residential House Tax Value (%), Commercial House Tax Value (%), Residential Water Tap Service (RS), Commercial Water Tap Service (RS), Public Water Service Tax (%), Public Drainage Service Tax(%), Public Library Service Cess (%), Public Street Light Service Tax (%).</description>
+    </item>
+    
+    <item>
+      <title>Kolagaram Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/kolagaram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/kolagaram/</guid>
+      <description>Introduction Kolagaram Property is one of the features of the software product which contains the data of all the Kolagarams properties in the Telangana state. A Kolagaram is a village level small industry. By using this Kolagaram property feature, Survey User can store every Trade License property in the panchayat.
+Business Assumptions  Kolagaram Property feature should be planned at the design phase. User should be in the panchayat level to create the kolagaram property.</description>
+    </item>
+    
+    <item>
+      <title>Kolagaram Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/kolagaramproperty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/kolagaramproperty/</guid>
+      <description>Introduction Kolagaram Property is one of the basic features of the software product which contains the data of all the kolagaram properties in the Telangana state. By using this kolagaram property feature, we have to store every kolagaram property data and know about every kolagaram property in the state. Every kolagaram property should be stored under the respective panchayat only.
+Business Assumptions  Kolagaram Property feature should be planned at the design phase.</description>
+    </item>
+    
+    <item>
+      <title>Kolagaram Tax Rate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/kolagaramtaxrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/kolagaramtaxrate/</guid>
+      <description>Introduction Kolagaram Tax Rate is one of the features of this software product. Kolagaram tax rate is a tax rate defined for kolagaram properties. Kolagaram tax rate depends upon panchayat resolution. Kolagaram tax rate may be differnt for kolagaram properties based on kolagaram cateogry. It may vary from one panchayat to other panchayat. Users will have access to kolagaram tax rates if they have permission, Otherwise will not access.
+Business Assumptions What type of users can create kolagaram tax rate should be planned at design phase.</description>
+    </item>
+    
+    <item>
+      <title>Locked Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/locked-property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/locked-property/</guid>
+      <description>Introduction Locked Property is one of the basic features of the software product which contains the data of all the Locked properties in the Telangana state. By using this Locked property feature we have to store every Locked property data and know about every Locked property in the state. Every Locked property should be stored under the respective panchayat only. Locked property means the property belongs to the government or no owner is there for property.</description>
+    </item>
+    
+    <item>
+      <title>Logout Module</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/logout-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/logout-module/</guid>
+      <description>Introduction Log out means to end access to Application.After Login into the application user can Start the survey.User can create House,Auction,Advertisement,TradeLicense,Kolagaram or VacantLand.After finishing the survey of given properties Survey User will sync the data and complete the survey all these functions are completed then user go for log out.But if survey user click on logout before all these action he/she can re login in to the system
+Business Assumptions  Logout Property feature should be planned at the design phase.</description>
+    </item>
+    
+    <item>
+      <title>Marriage Certificate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/marriagecertificate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/marriagecertificate/</guid>
+      <description>Introduction Marriage Certificate is one of the basic features of the software product. Marriage Certificate feature provides the service of applying for the marriage certificate. One application number will be assigned to the each marriage certificate application. Marriage certificate application status can be tracked using application number.
+Business Assumptions Marriage Certificate Feature should be planned at the design phase and updates to the marriage certificate at the run time based on the requirement.</description>
+    </item>
+    
+    <item>
+      <title>My Account</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/my-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/my-account/</guid>
+      <description>Introduction My Account is one of the basic features of the software product. My account feature will show all the details of the login user. And the details will be updated through my account update feature.
+Business Assumptions My Account Feature should be planned at the design phase and updates to the user account information at the run time based on the requirement.
+Requirements Functional Requirements  My Account feature is accessible at all levels of organization.</description>
+    </item>
+    
+    <item>
+      <title>Non-Resident Citizens</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/nonresidentcitizens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-citizens/nonresidentcitizens/</guid>
+      <description>Introduction Non Resident Citizens are one of the features of our software product. A Non-resident citizen is an individual who mainly resides in one region but has interests in another region. All these Non-resident Citizens are stored in this feature. Users should have permission to access this feature.
+Business Assumptions Non-Resident Citizen should be created and uploaded from mobile and no updates to the citizens at the run time.
+Requirements Functional Requirements Non-Resident Citizens can be accessible at all levels of the organization.</description>
+    </item>
+    
+    <item>
+      <title>Panchayat Assests</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-gismaps/panchayatassets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-gismaps/panchayatassets/</guid>
+      <description>Introduction Panchayat Assets in GIS Maps are one of the features of our software product. Panchayat assets in GIS Maps show the assets of a panchayat in the map. Users should have permission to access this feature.
+Business Assumptions Creating or updating the panchayat assets is not possible in GIS Maps. Only the user with permission will have access to search or view the panchayat assets on the map.
+Requirements Functional Requirements  Only panchayat level users should search or view the panchayat assets on the map.</description>
+    </item>
+    
+    <item>
+      <title>Panchayat Resolution</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/panchayatresolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/panchayatresolution/</guid>
+      <description>Introduction Panchayat Resolution is one of the features of this software product. Panchayat Resolution is a decision to do or not to do something in panchayat. Users will have access to panchayat resolution if they have permission, Otherwise will not access.
+Business Assumptions what type of users can create panchayat resolution should be planned at design phase.
+Requirements Functional Requirements  Users of all levels can create, remove, view and export the panchayat resolution.</description>
+    </item>
+    
+    <item>
+      <title>Pending Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/doorlockedproperty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/doorlockedproperty/</guid>
+      <description>Introduction Pending Property is one of the basic features of the software product which contains the data of all the pending properties in the Telangana state. By using this pending property feature we have to store every pending property data and know about every pending property in the state. Every pending property should be stored under the respective panchayat only. Pending property means the property belongs to the government or no owner is there for property.</description>
+    </item>
+    
+    <item>
+      <title>Product Release 2020NOV</title>
+      <link>http://doc.gramsevak.org/productreleases/2020dec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productreleases/2020dec/</guid>
+      <description>Planned Release Cycle gantt title Planned Release Cycle excludes weekends dateFormat YYYY-MM-DD todayMarker on section Design Features &amp; Design	:t1, 2020-10-01, 14d PM and Architect Approval	:t2, 2020-10-10, 10d section Development Development :t3, after t2, 12d section Quality Quality :t4, after t2, 18d section Staging Staging Update :t5, after t2, 24d Documentation	:t6, after t2, 24d section Deployment Rollout to production :t7, after t5, 5d  Executed Release Cycle gantt title Executed Release Cycle excludes weekends dateFormat YYYY-MM-DD todayMarker on section Design Features &amp; Design	:crit, active, t1, 2020-10-03, 14d PM and Architect Approval	:t2, 2020-10-10, 12d section Development Development :t3, after t2, 12d section Quality Quality :t4, after t2, 18d section Staging Staging Update :t5, after t2, 24d Documentation	:t6, after t2, 24d section Deployment Rollout to production :t7, after t5, 5d  Release Metrics    Metric name Estimated Metric value Actual Metric value Deviation value Remarks     Kick off Date 01 OCT 2020 03 OCT 2020 -02 days Delayed due to Calendar not available for all the members   Design Completion 20 OCT 2020 22 OCT 2020 -02 days Due to more discussions   Development Start Date 10 OCT 2020 14 OCT 2020 -04 days Due to Architect Approvals   Development Code Freeze Date       Testing Freeze Date       Defect fix Freeze Date       Finalyze the Feature and Defects       PM Demo and Certify Date       User manual Freeze date       Rollout Date        Retrospection Decisions    Reporter Improvement Accepted?</description>
+    </item>
+    
+    <item>
+      <title>Profile Picture</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/profilepicture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0012-useraccount/profilepicture/</guid>
+      <description>Introduction Profile Picture is one of the features of the software product. Profile Picture feature will provide the option to change the profile picture of the logged in user.
+Business Assumptions Profile Picture Feature should be planned at the design phase and updates at the run time based on the requirement.
+Requirements Functional Requirements  User of any level can change his profile picture. User should be log in to change his profile picture.</description>
+    </item>
+    
+    <item>
+      <title>Property Valuation Certificate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/property-valuation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0011-certificates/property-valuation/</guid>
+      <description>Introduction Property valuation certificate is one of the features of the software product. The property valuation feature provides the service of applying for the property valuation report. One application number will be assigned to each property valuation application. Property valuation application status can be tracked using the application number.
+Business Assumptions Property valuation feature should be planned at the design phase and updates to the property valuation at the run time based on the requirement.</description>
+    </item>
+    
+    <item>
+      <title>Sign Up</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/signup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/signup/</guid>
+      <description>Introduction Sign up is one of the basic features of the software product which contains confidential data. The product can be used by different users at various levels of the organization. To access the application, every user should sing up for the application. The sign up page allows a user to register in application by entering organization required data.
+Business Assumptions  Sign Up feature should be planned at the design phase.</description>
+    </item>
+    
+    <item>
+      <title>Start / Continue Survey</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/startorcontinuesurvey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/startorcontinuesurvey/</guid>
+      <description>Introduction Start / Continue Survey feature is the starting step to begin the survey. This feature contains properties buttons. Using the buttons Survey User can navigate to property listing page.
+Business Assumptions  Start / Continue Survey feature should be planned at the design phase. User should be in the panchayat level to create the property.  Requirements Functional Requirements  To start the survey, Survey User should complete the Panchayat Selection process.</description>
+    </item>
+    
+    <item>
+      <title>Tax Invoice Generator</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/tax-invoice-generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/tax-invoice-generator/</guid>
+      <description>Introduction Tax Invoice Generator is one of the features of this software product. Using this feature we can compute tax for different properties (House/Kolagaram/Advertisement/Trade/Vacantland) in every financial year. Users will have access to Tax Invoice Generator if they have permission, Otherwise will not access.
+Business Assumptions What type of users can generate Tax Invoice should be planned at design phase.
+Requirements Functional Requirements  Users of all levels can view and export the Tax Invoice.</description>
+    </item>
+    
+    <item>
+      <title>Taxable Properties</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-gismaps/taxableproperties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0009-gismaps/taxableproperties/</guid>
+      <description>Introduction Taxable properties in GIS Maps are one of the features of our software product. Taxable properties in GIS Maps show every taxable property of a panchayat in the map. Taxable properties of a panchayat include houses, kolagarams, auctions, advertisements, trade licenses, vacant lands, door locked properties. Users should have permission to access this feature.
+Business Assumptions Creating or updating the taxable properties is not possible in GIS Maps. Only the user with permission will have access to search or view the taxable properties on the map.</description>
+    </item>
+    
+    <item>
+      <title>Trade Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/tradeproperty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/tradeproperty/</guid>
+      <description>Introduction Trade Property is one of the basic features of the software product which contains the data of all the trade properties in the Telangana state. By using this trade property feature, we have to store every trade property data and know about every trade property in the state. Every trade property should be stored under the respective panchayat only.
+Business Assumptions  Trade Property feature should be planned at the design phase.</description>
+    </item>
+    
+    <item>
+      <title>Trade Tax Rate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/tradetaxrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/tradetaxrate/</guid>
+      <description>Introduction Trade Tax Rate is one of the features of this software product. Trade tax rate is a tax rate defined for trade properties. It depends upon panchayat resolution. Trade tax rate may be different for trade properties based on trade category. It may vary from one panchayat to other panchayat. Users will have access to trade tax rates if they have permission, Otherwise will not access.
+Business Assumptions What type of users can create trade tax rate should be planned at design phase.</description>
+    </item>
+    
+    <item>
+      <title>TradeLicense Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/tradelicense/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/tradelicense/</guid>
+      <description>Introduction TradeLicense Property is one of the features of the software product which contains the data of all the TradeLicense properties in the Telangana state. A trade license is a document/certificate that gives the permission to the applicant (person seeking to open a business) to commence a particular trade or business in a particular area/location. By using this TradeLicense property feature, Survey User can store every Trade License property in the panchayat.</description>
+    </item>
+    
+    <item>
+      <title>UML Diagrams</title>
+      <link>http://doc.gramsevak.org/docsemantics/uml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/docsemantics/uml/</guid>
+      <description>The Unified Modeling Language (UML) is a general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system
+An entity–relationship model (or ER model) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between entities (instances of those entity types).</description>
+    </item>
+    
+    <item>
+      <title>Upload Data</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/upload-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/upload-data/</guid>
+      <description>Introduction Upload Data is an important feature in panchayat Telangana Survey application. The main goal of the Upload feature is to upload all taxable properties to GS-Cloud Server. The upload page contains switch buttons that are used to upload property data to GS-Cloud. After clicking a particular property switch button respective properties uploaded to GS-Cloud.
+Business Assumptions  Upload Data feature should be planned at the design phase. Survey User can able to upload the properties to GS-Cloud.</description>
+    </item>
+    
+    <item>
+      <title>User Manual</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/user-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/user-manual/</guid>
+      <description>Introduction User Manual is one of the basic features of the software product. User Manual provides application functionality and app flow details to the survey user. It contains four sections 1.Product Manual, 2.Visual Manual, 3.FAQ (Frequently Asked Questions), and 4.Trouble Shooting. Using product manual and visual manual sections, the user can gain application knowledge. The user can clarify his doubts using the FAQ section. Using the Trouble Shooting section user can able to solve the problems what they faced with in the application.</description>
+    </item>
+    
+    <item>
+      <title>Vacant Land Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/vacantlandproperty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0006-taxableproperties/vacantlandproperty/</guid>
+      <description>Introduction Vacant Land Property is one of the basic features of the software product which contains the data of all the vacant land properties in the Telangana state. By using this vacant land property feature, we have to store every vacant land property data and know about every vacant land property in the state. Every vacant land property should be stored under the respective panchayat only.
+Business Assumptions  Vacant Land Property feature should be planned at the design phase.</description>
+    </item>
+    
+    <item>
+      <title>Vacant Land Tax Rate</title>
+      <link>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/vacantlandtaxrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/webapplication/gs0008-administration/vacantlandtaxrate/</guid>
+      <description>Introduction Vacant Land Tax Rate is one of the features of this software product. Vacant land tax rate is a tax rate defined for vacant land properties. It depends upon panchayat resolution. It may vary from one panchayat to other panchayat. Users will have access to vacant land tax rates if they have permission, Otherwise will not access.
+Business Assumptions What type of users can create vacant land tax rate should be planned at design phase.</description>
+    </item>
+    
+    <item>
+      <title>VacantLand Property</title>
+      <link>http://doc.gramsevak.org/productspecification/features/mobileapplication/vacantland/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/features/mobileapplication/vacantland/</guid>
+      <description>Introduction VacantLand Property is one of the basic features of the software product which contains the data of all the VacantLand properties in the Telangana state. Vacant land means property land that has no buildings on it and is not being used. By using this VacantLand property feature, Survey User can store every VacantLand property in the panchayat.
+Business Assumptions  VacantLand Property feature should be planned at the design phase.</description>
+    </item>
+    
+  </channel>
+</rss>

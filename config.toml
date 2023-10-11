@@ -1,0 +1,24 @@
+baseURL = "http://doc.gramsevak.org/"
+languageCode = "en-us"
+title = "Gram Sevak Product Documentation"
+theme = "learn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.en]
+title = "Gram Sevak Product Documentation"
+weight = 1
+languageName = "English"
+
+
+[params]
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "title"

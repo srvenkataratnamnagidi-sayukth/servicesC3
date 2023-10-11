@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Not Started on Gram Sevak Product Documentation</title>
+    <link>http://doc.gramsevak.org/tags/not-started/</link>
+    <description>Recent content in Not Started on Gram Sevak Product Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://doc.gramsevak.org/tags/not-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Escalation Matrix</title>
+      <link>http://doc.gramsevak.org/productspecification/escalationmatrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/escalationmatrix/</guid>
+      <description>This page describes the &amp;ldquo;Escalation Matrix&amp;rdquo;
+ Quick links   </description>
+    </item>
+    
+    <item>
+      <title>Production Environment</title>
+      <link>http://doc.gramsevak.org/productspecification/productionenvironment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/productionenvironment/</guid>
+      <description>This page describes the &amp;ldquo;Production Environment&amp;rdquo;
+ Quick links   </description>
+    </item>
+    
+    <item>
+      <title>Unit Testing</title>
+      <link>http://doc.gramsevak.org/productspecification/unittesting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://doc.gramsevak.org/productspecification/unittesting/</guid>
+      <description>This page describes the &amp;ldquo;Unit Testing&amp;rdquo;
+ Quick links   </description>
+    </item>
+    
+  </channel>
+</rss>

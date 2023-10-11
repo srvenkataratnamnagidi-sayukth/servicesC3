@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="111px" preserveAspectRatio="none" style="width:688px;height:111px;" version="1.1" viewBox="0 0 688 111" width="688px" zoomAndPan="magnify"><defs><filter height="300%" id="fykxx8izyxv1d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[aa8f24c7f49c5f1158ea33932df06ce1]
+cluster TomcatCluster--><polygon fill="#FFFFFF" filter="url(#fykxx8izyxv1d)" points="356.5,6,483.5,6,490.5,28.2969,496.5,28.2969,496.5,104,356.5,104,356.5,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="356.5" x2="490.5" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="360.5" y="20.9951">TomcatCluster</text><!--MD5=[007018b4335cad44b7d92fd4b80ab318]
+cluster DatabaseCluster--><polygon fill="#FFFFFF" filter="url(#fykxx8izyxv1d)" points="520.5,6,661.5,6,668.5,28.2969,671.5,28.2969,671.5,104,520.5,104,520.5,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="520.5" x2="668.5" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="524.5" y="20.9951">DatabaseCluster</text><!--MD5=[672e4f77684b02080a48764dcc1bdc5e]
+entity Tomcat--><rect fill="#FEFECE" filter="url(#fykxx8izyxv1d)" height="46.5938" style="stroke:#000000;stroke-width:1.5;" width="107" x="373" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="383" y="56.9951">Tomcat</text><line style="stroke:#000000;stroke-width:1.0;" x1="374" x2="479" y1="60.2969" y2="60.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="383" y="77.292">y.y.y.1:8181</text><!--MD5=[e2541b2d2086d31b1d1d1c900e2f8e7b]
+entity ZMySQL--><rect fill="#FEFECE" filter="url(#fykxx8izyxv1d)" height="46.5938" style="stroke:#000000;stroke-width:1.5;" width="109" x="537" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="547" y="56.9951">MySQL</text><line style="stroke:#000000;stroke-width:1.0;" x1="538" x2="645" y1="60.2969" y2="60.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="547" y="77.292">z.z.z.1:3306</text><!--MD5=[f702c3ad3d6223d1be29b09ba9f1b5fe]
+entity API_Client--><ellipse cx="42.5" cy="33.5" fill="#FEFECE" filter="url(#fykxx8izyxv1d)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M42.5,41.5 L42.5,68.5 M29.5,49.5 L55.5,49.5 M42.5,68.5 L29.5,83.5 M42.5,68.5 L55.5,83.5 " fill="none" filter="url(#fykxx8izyxv1d)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="6" y="101.9951">API_Client</text><!--MD5=[9eb86c2b3d925a16ba1bdada40016c70]
+entity Internet--><path d="M123.2288,50.6725 C127.25,44.8305 131.5094,43.9248 135.8866,50.3037 C139.3366,43.383 143.3676,43.1805 148.3089,48.8301 C150.6126,42.8254 156.9856,42.2764 160.9528,46.8398 C164.0502,42.5124 169.4543,42.5318 171.8476,47.6517 C177.0434,43.2479 181.7607,43.5293 184.6694,50.2806 C189.1658,43.626 193.9009,43.1036 198.1072,50.5569 C206.3884,51.6586 210.0878,58.2303 203.667,64.9938 C209.3765,72.5402 205.0232,78.9617 196.6474,79.8552 C195.4246,86.5179 190.6035,87.634 186.0166,83.0293 C183.3395,90.802 177.0745,90.7492 172.3369,85.1348 C169.7611,91.7415 164.9539,92.4834 160.2895,87.2623 C155.7863,92.337 151.2668,93.2243 147.9255,86.086 C142.206,90.7795 137.5112,89.6778 135.9165,82.0619 C132.4308,87.3303 127.8556,88.039 124.5166,81.9149 C115.3935,81.1013 111.5391,73.2447 116.3207,65.4919 C111.751,57.5936 113.5973,51.9509 123.2288,50.6725 " fill="#FEFECE" filter="url(#fykxx8izyxv1d)" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="129.5" y="69.4951">Internet</text><!--MD5=[98eaaff19bea7fc2d0181bdc0aff3ebe]
+entity HAProxy--><rect fill="#FEFECE" filter="url(#fykxx8izyxv1d)" height="46.5938" style="stroke:#000000;stroke-width:1.5;" width="98" x="239.5" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="249.5" y="56.9951">HAProxy</text><line style="stroke:#000000;stroke-width:1.0;" x1="240.5" x2="336.5" y1="60.2969" y2="60.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="249.5" y="77.292">x.x.x.1:443</text><!--MD5=[2f8b7867993cd294763ba9257973521f]
+link API_Client to Internet--><path d="M79.0625,64.5 C89.0517,64.5 99.041,64.5 109.03,64.5 " fill="none" id="API_Client-to-Internet" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="114.254,64.5,105.254,60.5,109.254,64.5,105.254,68.5,114.254,64.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2f05da1352958ee7207e6a0445fb36f5]
+link Internet to HAProxy--><path d="M204.6,64.5 C214.461,64.5 224.322,64.5 234.183,64.5 " fill="none" id="Internet-to-HAProxy" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="239.34,64.5,230.34,60.5,234.34,64.5,230.34,68.5,239.34,64.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[508aa9d3881da84082aaa3781ca5ba8c]
+link HAProxy to Tomcat--><path d="M337.555,64.5 C347.614,64.5 357.674,64.5 367.733,64.5 " fill="none" id="HAProxy-to-Tomcat" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="372.994,64.5,363.994,60.5,367.994,64.5,363.994,68.5,372.994,64.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bf568027b99be8609974ae4eaccce82f]
+link Tomcat to ZMySQL--><path d="M480.318,64.5 C497.374,64.5 514.429,64.5 531.485,64.5 " fill="none" id="Tomcat-to-ZMySQL" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="536.778,64.5,527.778,60.5,531.778,64.5,527.778,68.5,536.778,64.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[461a70ef1906318c18589febf564e81f]
+@startuml
+actor API_Client
+cloud Internet
+
+card HAProxy [
+HAProxy
+- - -
+x.x.x.1:443
+]
+
+
+folder TomcatCluster {
+card Tomcat [
+Tomcat
+- - -
+y.y.y.1:8181
+]
+}
+
+folder DatabaseCluster {
+card ZMySQL [
+MySQL
+- - -
+z.z.z.1:3306
+]
+}
+
+
+API_Client -> Internet
+Internet -> HAProxy
+HAProxy -> Tomcat
+Tomcat -> ZMySQL
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 UTC 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

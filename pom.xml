@@ -1,0 +1,119 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.shadkona.gramsevak</groupId>
+	<artifactId>gsdoc-product-ts</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Grama Sevak Product Documentation</name>
+	<url>http://maven.apache.org</url>
+
+	<profiles>
+		<profile>
+			<id>local</id>
+			<activation>
+				<property>
+					<name>env</name>
+					<value>local</value>
+				</property>
+			</activation>
+			<properties>
+				<target.local.ssh.commandresource>src/main/resources/appserver/local-war.cli</target.local.ssh.commandresource>
+				<target.local.ssh.destination.dir>/tmp</target.local.ssh.destination.dir>
+			</properties>
+		</profile>
+		<profile>
+			<id>staging</id>
+			<activation>
+				<property>
+					<name>env</name>
+					<value>staging</value>
+				</property>
+			</activation>
+			<properties>
+				<target.staging.ssh.server>192.168.56.110</target.staging.ssh.server>
+				<target.staging.ssh.port>22</target.staging.ssh.port>
+				<target.staging.ssh.username>root</target.staging.ssh.username>
+				<target.staging.ssh.password>1!Qdesigner</target.staging.ssh.password>
+				<target.staging.ssh.commandresource>src/main/resources/appserver/staging-war.cli</target.staging.ssh.commandresource>
+				<target.staging.ssh.destination.dir>/tmp</target.staging.ssh.destination.dir>
+			</properties>
+		</profile>
+	</profiles>
+
+	<build>
+		<finalName>gramsevak</finalName>
+		<plugins>
+			<plugin>
+				<inherited>false</inherited>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>3.0.0</version>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target name="deploy_local"
+								if="target.local.ssh.commandresource">
+								<exec executable="${target.local.ssh.commandresource}"
+									spawn="false">
+								</exec>
+							</target>
+							<target name="deploy_staging"
+								if="target.staging.ssh.server">
+
+								<scp file="target/gramsevak.war"
+									todir="${target.staging.ssh.username}:${target.staging.ssh.password}@${target.staging.ssh.server}:/tmp/ROOT.war"
+									port="${target.staging.ssh.port}" trust="true" />
+
+								<sshexec host="${target.staging.ssh.server}"
+									username="${target.staging.ssh.username}"
+									password="${target.staging.ssh.password}"
+									commandResource="${target.staging.ssh.commandresource}"
+									port="${target.staging.ssh.port}" trust="true" />
+
+								<taskdef name="scp"
+									classname="org.apache.tools.ant.taskdefs.optional.ssh.Scp">
+									<classpath refid="maven.plugin.classpath" />
+								</taskdef>
+							</target>
+						</configuration>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>ant</groupId>
+						<artifactId>ant-commons-net</artifactId>
+						<version>1.6.5</version>
+					</dependency>
+					<dependency>
+						<groupId>org.apache.ant</groupId>
+						<artifactId>ant-jsch</artifactId>
+						<version>1.10.8</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
+				<groupId>com.ruleoftech</groupId>
+				<artifactId>markdown-page-generator-plugin</artifactId>
+				<version>2.3.0</version>
+				<executions>
+					<execution>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<inputDirectory>${basedir}/src/main/markdown</inputDirectory>
+					<inputEncoding>UTF-8</inputEncoding>
+					<outputEncoding>ISO-8859-15</outputEncoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
