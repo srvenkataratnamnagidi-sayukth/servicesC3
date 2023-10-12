@@ -1,5 +1,5 @@
 ---
-title: Ha-proxy
+title: Ha-proxy Exporter
 weight : 3
 ---
 
