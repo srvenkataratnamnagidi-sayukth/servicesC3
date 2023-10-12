@@ -1,15 +1,19 @@
 ---
-title: Service Offered by C3
+title: Services Offered by C3
 tags : ["Devops Culture"]
 
 ---
 - Server Monitoring
 
-- Jennikins Pipline
+- Jenkins 
 
 - SonarCube Reports
 
 - Snyk Reports
+
+- Websites Monitoring
+
+- Standard Operations
 
 ## Server Monitoring
 
@@ -49,6 +53,20 @@ Monitoring systems often store historical data, which can be useful for trend an
 *Server monitoring can be done using a variety of tools and software, ranging from open-source solutions to commercial products. Some well-known server monitoring tools include Nagios, Zabbix, Prometheus, and commercial solutions like SolarWinds and New Relic. The choice of tool depends on the specific needs and budget of your organization.*
 
 > Effective server monitoring is a critical part of ensuring the reliability and performance of your IT infrastructure, particularly in larger organizations where numerous servers and services need to be managed.
+
+## Jenkins
+
+Jenkins is an open-source automation server used for building, deploying, and automating software development processes. It is a widely used and highly extensible tool that helps development and operations teams streamline their continuous integration and continuous delivery (CI/CD) pipelines. 
+
+## Sonar Reports
+
+
+SonarQube (formerly known as Sonar) is an open-source platform for continuous inspection of code quality. It performs static code analysis on source code to identify and report on a wide range of code quality and security issues. SonarQube generates detailed reports, often referred to as "Sonar reports," which provide insights into the quality of your codebase and help you improve it. 
+
+
+## Synk Reports
+
+Snyk is a popular security platform that specializes in identifying and addressing security vulnerabilities in open-source libraries and container images. It helps developers and organizations ensure the security of their software by continuously monitoring and analyzing their dependencies for known vulnerabilities. 
 
 
 {{% children  %}}
