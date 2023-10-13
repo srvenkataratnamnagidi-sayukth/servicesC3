@@ -11,7 +11,9 @@ Snyk is a popular security platform that specializes in identifying and addressi
 Here's an overview of Snyk and its reports:
 
 
-**Dependency Scanning:** Snyk scans your application's dependencies, including third-party libraries and packages, to identify security vulnerabilities. It checks these dependencies against a database of known vulnerabilities.
+**Dependency Scanning:**
+
+ Snyk scans your application's dependencies, including third-party libraries and packages, to identify security vulnerabilities. It checks these dependencies against a database of known vulnerabilities.
 
 **Container Scanning:** 
 

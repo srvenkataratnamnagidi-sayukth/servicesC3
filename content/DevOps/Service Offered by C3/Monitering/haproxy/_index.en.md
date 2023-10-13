@@ -1,6 +1,6 @@
 ---
 title: Ha-proxy Exporter
-weight : 3
+weight : 6
 ---
 
 **HAProxy Exporter**

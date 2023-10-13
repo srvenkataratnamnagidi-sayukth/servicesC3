@@ -1,5 +1,6 @@
 ---
 title : Node Exporter
+weight : 4
 ---
 
 **Node Exporter**
