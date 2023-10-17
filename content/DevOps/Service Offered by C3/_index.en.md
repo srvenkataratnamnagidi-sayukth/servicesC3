@@ -32,7 +32,7 @@ title: Services Offered by C3
 
 **Performance Monitoring:** 
 
-- Performance monitoring tracks the server's resource utilization, such as CPU and memory usage. It helps identify resource bottlenecks and potential performance issues.
+- Performance monitoring tracks the server's resource utilization, such as CPU and memory usage. It helps identify  potential performance issues.
 
 
 **Security Monitoring:** 
@@ -47,7 +47,7 @@ title: Services Offered by C3
 
 - Remote monitoring allows administrators to keep an eye on servers from anywhere. This can involve the use of remote monitoring tools like Grafana , Promotheus or cloud-based services.
 
- Server monitoring can be done using a variety of tools and software, ranging from open-source solutions to commercial products. Some well-known server monitoring tools include Nagios, Zabbix, Prometheus, and commercial solutions like SolarWinds and New Relic. The choice of tool depends on the specific needs and budget of your organization.
+ Server monitoring can be done using a variety of tools and software, ranging from open-source solutions to commercial products. Some well-known server monitoring tools include  Nagios, Prometheus, and commercial solutions like SolarWinds and New Relic. The choice of tool depends on the specific needs and budget of your organization.
 
 > Effective server monitoring is a critical part of ensuring the reliability and performance of your IT infrastructure, particularly in larger organizations where numerous servers and services need to be managed.
 
